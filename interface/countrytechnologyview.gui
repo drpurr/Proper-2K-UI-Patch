@@ -704,7 +704,7 @@ guiTypes = {
 		#Diplo tech name & Icon
 		instantTextBoxType = {
 			name = "tech_research_name"
-			position = { x = 10 y = 61 } #Increase y = down
+			position = { x = 10 y = 60 } #Increase y = down
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -808,7 +808,7 @@ guiTypes = {
 		}
 		
 		
-		
+		#Highlight on new ship unlock..
 		iconType =
 		{
 			name ="tech_nav_light_ship_unlock"
@@ -1152,7 +1152,7 @@ guiTypes = {
 		# Mil Icon/Name
 		instantTextBoxType = {
 			name = "tech_research_name"
-			position = { x = 10 y = 65 } #Increase y = down
+			position = { x = 10 y = 63 } #Increase y = down
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -1165,7 +1165,7 @@ guiTypes = {
 		# Mil tech Unlock items
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 134 y = 110 } #Increase y = down
+			position = { x = 134 y = 112 } #Increase y = down
 			size = { x = 210 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
