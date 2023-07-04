@@ -719,7 +719,7 @@ guiTypes = {
 		# Diplo Research Items
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 120 y = 112 } #Increase y = down, Increase x = right
+			position = { x = 122 y = 110 } #Increase y = down, Increase x = right
 			size = { x = 210 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -779,7 +779,7 @@ guiTypes = {
 		{
 			name ="tech_nav_heavy_ship_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x = 314 y = 41 } # Increase x = right
+			position = { x = 326 y = 41 } # Increase x = right
 			Orientation = "UPPER_LEFT"
 			frame = 1
 
@@ -790,7 +790,7 @@ guiTypes = {
 		{
 			name ="tech_nav_heavy_ship"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 321 y = 47 }
+			position = { x= 326 y = 47 }
 			Orientation = "UPPER_LEFT"
 			frame = 4
 			scale = 0.7
@@ -1174,7 +1174,7 @@ guiTypes = {
 		# Mil tech Unlock items
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 118 y = 112 } #Increase y = down
+			position = { x = 120 y = 114 } #Increase y = down
 			size = { x = 210 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -1242,7 +1242,7 @@ guiTypes = {
 				{
 					name ="tech_unit_infantry"
 					spriteType = "GFX_unit_types_strip_mil_view"
-					position = { x= 247 y = 46 }
+					position = { x= 326 y = 46 }
 					Orientation = "UPPER_LEFT"
 					frame = 1
 					scale = 0.7
