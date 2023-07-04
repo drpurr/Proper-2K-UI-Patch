@@ -17,9 +17,13 @@
 
 ## About The Project
 
-A quick compatibility patch for Europa Universalis 1.34.5 Proper 2K UI Project. New alert badge art was AI upscaled with [Upscayl](https://github.com/upscayl/upscayll)
+A fan patch for Europa Universalis 1.34.5 Proper 2K UI Project. New alert badge art was AI upscaled with [Upscayl](https://github.com/upscayl/upscayll). Additional mod compatibility to follow.
 
 ## Authors
+
+## Compatibility Added
+
+* [Plati's Tech Picture](https://steamcommunity.com/sharedfiles/filedetails/?id=2962916850) - This has just been added. It required some slight changes to the default 2K UI Project to get to work. Not required to download the original as all assets were re-scaled.
 
 * **DrPurr** - [DrPurr](https://github.com/drpurr) - 
 
