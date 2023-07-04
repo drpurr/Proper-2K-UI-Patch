@@ -348,7 +348,7 @@ guiTypes = {
 		#Admin tech name/Picture
 		instantTextBoxType = {
 			name = "tech_research_name"
-			position = { x = 10 y = 72 } #Increase y = down
+			position = { x = 10 y = 74 } #Increase y = down
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -1137,7 +1137,7 @@ guiTypes = {
 		{
 			name ="tech_research"
 			quadTextureSprite= "GFX_technology_view_research"
-			position = { x= 104 y = 50 }
+			position = { x= 104 y = 53 }
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"	
 		}
@@ -1149,7 +1149,7 @@ guiTypes = {
 			position = { x= 34 y = 11 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mil"
-			scale = 1.2	`
+			scale = 1.2
 		}
 		# Mil Icon/Name
 		instantTextBoxType = {
@@ -1167,7 +1167,7 @@ guiTypes = {
 		# Mil tech Unlock items
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 120 y = 112 } #Increase y = down
+			position = { x = 120 y = 110 } #Increase y = down
 			size = { x = 210 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
