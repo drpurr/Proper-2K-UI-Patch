@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/DrPurr/Proper-2K-UI-Patch">
-    <img src="thumbnail.png" alt="Logo" width="80" height="80">
+    <img src="thumbnail.png" alt="Logo">
   </a>
 
   <h3 align="center">Proper 2K UI Unofficial Patch</h3>
