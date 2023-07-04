@@ -30,3 +30,4 @@ A fan patch for Europa Universalis 1.34.5 Proper 2K UI Project. New alert badge 
 ## Acknowledgements
 
 * [LuvianQ](https://steamcommunity.com/id/luvian03/myworkshopfiles/) - Original Mod Creator
+* [Plati](https://steamcommunity.com/profiles/76561198093911712/myworkshopfiles/) - Plati's Mods
