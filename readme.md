@@ -13,7 +13,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/DrPurr/Proper-2K-UI-Patch/total) ![Contributors](https://img.shields.io/github/contributors/DrPurr/Proper-2K-UI-Patch?color=dark-green) ![Issues](https://img.shields.io/github/issues/DrPurr/Proper-2K-UI-Patch) ![License](https://img.shields.io/github/license/DrPurr/Proper-2K-UI-Patch) 
+<p align="center">![Downloads](https://img.shields.io/github/downloads/DrPurr/Proper-2K-UI-Patch/total) ![Contributors](https://img.shields.io/github/contributors/DrPurr/Proper-2K-UI-Patch?color=dark-green) ![Issues](https://img.shields.io/github/issues/DrPurr/Proper-2K-UI-Patch) ![License](https://img.shields.io/github/license/DrPurr/Proper-2K-UI-Patch)</p>
 
 ## About The Project
 
