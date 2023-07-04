@@ -348,7 +348,7 @@ guiTypes = {
 		#Admin tech name/Picture
 		instantTextBoxType = {
 			name = "tech_research_name"
-			position = { x = 10 y = 70 } #Increase y = down
+			position = { x = 10 y = 72 } #Increase y = down
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -709,7 +709,7 @@ guiTypes = {
 			position = { x = 10 y = 56 } #Increase y = down
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}	
+			borderSize = {x = 4 y = 4}	
 			text = "Research Galloop Tactic"	
 			maxWidth = 350
 			maxHeight = 50
@@ -779,10 +779,9 @@ guiTypes = {
 		{
 			name ="tech_nav_heavy_ship_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x = 326 y = 41 } # Increase x = right
+			position = { x = 332 y = 41 } # Increase x = right
 			Orientation = "UPPER_LEFT"
 			frame = 1
-
 
 		}
 		
@@ -790,7 +789,7 @@ guiTypes = {
 		{
 			name ="tech_nav_heavy_ship"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 326 y = 47 }
+			position = { x= 335 y = 47 } # Increase x = right
 			Orientation = "UPPER_LEFT"
 			frame = 4
 			scale = 0.7
@@ -800,7 +799,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_heavy_ship_name"
-			position = { x = 384 y = 52 }
+			position = { x = 375 y = 52 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -816,7 +815,7 @@ guiTypes = {
 		{
 			name ="tech_nav_light_ship_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x= 344 y = 77 }
+			position = { x= 331 y = 77 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 
@@ -827,7 +826,7 @@ guiTypes = {
 		{
 			name ="tech_nav_light_ship"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 346 y = 82 }
+			position = { x= 333 y = 82 } 
 			Orientation = "UPPER_LEFT"
 			frame = 5
 			scale = 0.7
@@ -836,7 +835,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_light_ship_name"
-			position = { x = 384 y = 88 }
+			position = { x = 371 y = 88 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -844,12 +843,13 @@ guiTypes = {
 			maxWidth = 192
 			maxHeight = 38
 			format = left
+			truncate = yes
 		}
 		iconType =
 		{
 			name ="tech_nav_galley_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x= 344 y = 112 }
+			position = { x= 329 y = 112 } 
 			Orientation = "UPPER_LEFT"
 			frame = 1
 			
@@ -859,7 +859,7 @@ guiTypes = {
 		{
 			name ="tech_nav_galley"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 346 y = 114 }
+			position = { x= 331 y = 114 }
 			Orientation = "UPPER_LEFT"
 			frame = 6
 			scale = 0.7
@@ -868,24 +868,20 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_galley_name"
-			position = { x = 384 y = 122 }
+			position = { x = 371 y = 122 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "Galley"	
 			maxWidth = 192
-			maxHeight = 38
+			maxHeight = 50
 			format = left
 		}		
-		
-		
-		
-		
 		iconType =
 		{
 			name ="tech_nav_transport_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x= 344 y = 146 }
+			position = { x= 336 y = 146 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		
@@ -895,7 +891,7 @@ guiTypes = {
 		{
 			name ="tech_nav_transport"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 346 y = 149 }
+			position = { x= 328 y = 149 } 
 			Orientation = "UPPER_LEFT"
 			frame = 7
 			scale = 0.7	
@@ -904,14 +900,13 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_transport_name"
-			position = { x = 384 y = 157 }
+			position = { x = 366 y = 156 } #Transport name.. Why is this the only one that works?
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "Transport"	
 			maxWidth = 192
 			maxHeight = 38
-			format = left
 		}		
 		## END OF NAVY ICON/NAMES
 		iconType =
@@ -942,19 +937,19 @@ guiTypes = {
 			maxHeight = 38
 			format = right
 		}			
-
+		#Naval engagement icon
 		iconType =
 		{
 			name = "tech_engagement"
 			spriteType = "GFX_engagement_width_icon"
-			position = { x= 415 y = 156 } 
+			position = { x= 417 y = 155 } 
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_combatwidth"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_engagement_value"
-			position = { x = 422 y = 156 }
+			position = { x = 430 y = 155 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -963,8 +958,6 @@ guiTypes = {
 			maxHeight = 38
 			format = right
 		}			
-
-		
 		iconType =
 		{
 			name ="tech_naval_morale"
@@ -1144,7 +1137,7 @@ guiTypes = {
 		{
 			name ="tech_research"
 			quadTextureSprite= "GFX_technology_view_research"
-			position = { x= 104 y = 49 }
+			position = { x= 104 y = 50 }
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"	
 		}
@@ -1156,15 +1149,15 @@ guiTypes = {
 			position = { x= 34 y = 11 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mil"
-			scale = 1.2
+			scale = 1.2	`
 		}
 		# Mil Icon/Name
 		instantTextBoxType = {
 			name = "tech_research_name"
-			position = { x = 10 y = 57 } #Increase y = down
+			position = { x = 10 y = 59 } #Increase y = down
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}	
+			borderSize = {x = 4 y = 4}	
 			text = "Research Galloop Tactic (Military 15)"	
 			maxWidth = 350
 			maxHeight = 50
@@ -1174,7 +1167,7 @@ guiTypes = {
 		# Mil tech Unlock items
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 120 y = 114 } #Increase y = down
+			position = { x = 120 y = 112 } #Increase y = down
 			size = { x = 210 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -1201,7 +1194,7 @@ guiTypes = {
 		OverlappingElementsBoxType =
 		{
 			name = "required_institutions_box"
-			position = { x = 348 y = 18 }
+			position = { x = 348 y = 17 }
 			size = { x = 168 y = 31 }
 			Orientation = "UPPERL_LEFT"
 			format = right
@@ -1232,17 +1225,18 @@ guiTypes = {
 				{
 					name ="tech_unit_infantry_unlock"
 					spriteType = "GFX_technology_view_unitnextunlock_big"
-					position = { x= 317 y = 40}
+					position = { x= 330 y = 45}
 					Orientation = "UPPER_LEFT"
 					frame = 1
+					scale = 0.7
 		
 				}
-				
+				#Infantry Icon
 				iconType =
 				{
 					name ="tech_unit_infantry"
 					spriteType = "GFX_unit_types_strip_mil_view"
-					position = { x= 326 y = 46 }
+					position = { x= 333 y = 42 }
 					Orientation = "UPPER_LEFT"
 					frame = 1
 					scale = 0.7
@@ -1250,29 +1244,29 @@ guiTypes = {
 		
 				instantTextBoxType = {
 					name = "tech_unit_infantry_name"
-					position = { x = 286 y = 41 }
+					position = { x = 363 y = 42 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 5 y = 5}	
 					text = "Maurician"	
-					maxWidth = 197
+					maxWidth = 140
 					maxHeight = 38
 					format = left
-					#fixedsize = yes
+					fixedsize = yes
 					truncate = yes
 				}
-				
+				#Fire icon
 				iconType = {
 					name ="tech_inf_fire"
 					spriteType = "GFX_icon_fire"
-					position = { x= 289 y = 60 }
-					scale = 0.85
+					position = { x= 333 y = 68 }
+					scale = 0.7
 					hint_tag = "hint_firemod"
 				}
 				
 				instantTextBoxType = {
 					name = "tech_inf_fire_value"
-					position = { x = 317 y = 62 } 
+					position = { x = 365 y = 70 } 
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}	
@@ -1285,14 +1279,14 @@ guiTypes = {
 				iconType = {
 					name ="tech_inf_shock"
 					spriteType = "GFX_icon_shock"
-					position = { x= 377 y = 61 }
-					scale = 0.85
+					position = { x= 408 y = 68 }
+					scale = 0.7
 					hint_tag = "hint_shockmod"
 				}
 				
 				instantTextBoxType = {
 					name = "tech_inf_shock_value"
-					position = { x = 403 y = 62 } 
+					position = { x = 440 y = 70 } 
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}	
@@ -1306,9 +1300,10 @@ guiTypes = {
 				{
 					name ="tech_unit_cavalry_unlock"
 					spriteType = "GFX_technology_view_unitnextunlock_big"
-					position = { x= 244 y = 86 }
+					position = { x= 330 y = 84 }
 					Orientation = "UPPER_LEFT"
 					frame = 1
+					scale = 0.7
 				
 				}
 		
@@ -1316,37 +1311,35 @@ guiTypes = {
 				{
 					name ="tech_unit_cavalry"
 					spriteType = "GFX_unit_types_strip_mil_view"
-					position = { x= 247 y = 92 }
+					position = { x= 333 y = 87 }
 					Orientation = "UPPER_LEFT"
 					frame = 2
-					scale = 0.7
+					scale = 0.6
 				}
-		
 				instantTextBoxType = {
 					name = "tech_unit_cavalry_name"
-					position = { x = 286 y = 88 }
+					position = { x = 363 y = 87 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 5 y = 5}	
 					text = "Knights"	
-					maxWidth = 197
+					maxWidth = 140
 					maxHeight = 38
 					format = left
 					fixedsize = yes
 					truncate = yes
 				}
-		
 				iconType = {
 					name ="tech_cav_fire"
 					spriteType = "GFX_icon_fire"
-					position = { x= 289 y = 107 }
-					scale = 0.85
+					position = { x= 333 y = 113 }
+					scale = 0.7
 					hint_tag = "hint_firemod"
 				}
 				
 				instantTextBoxType = {
 					name = "tech_cav_fire_value"
-					position = { x = 317 y = 109 } 
+					position = { x = 365 y = 115 } 
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}	
@@ -1359,14 +1352,14 @@ guiTypes = {
 				iconType = {
 					name ="tech_cav_shock"
 					spriteType = "GFX_icon_shock"
-					position = { x= 377 y = 108 }
+					position = { x= 408 y = 113 }
 					scale = 0.85
 					hint_tag = "hint_shockmod"
 				}
 				
 				instantTextBoxType = {
 					name = "tech_cav_shock_value"
-					position = { x = 403 y = 109 } 
+					position = { x = 440 y = 115 } 
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}	
@@ -1381,9 +1374,10 @@ guiTypes = {
 				{
 					name ="tech_unit_artillery_unlock"
 					spriteType = "GFX_technology_view_unitnextunlock_big"
-					position = { x= 244 y = 133 }
+					position = { x= 330 y = 131 }
 					Orientation = "UPPER_LEFT"
 					frame = 1
+					scale = 0.7
 				
 				}
 				
@@ -1391,20 +1385,20 @@ guiTypes = {
 				{
 					name ="tech_unit_artillery"
 					spriteType = "GFX_unit_types_strip_mil_view"
-					position = { x= 247 y = 137 }
+					position = { x= 333 y = 134 }
 					Orientation = "UPPER_LEFT"
 					frame = 3
-					scale = 0.7
+					scale = 0.6
 				}
 		
 				instantTextBoxType = {
 					name = "tech_unit_artillery_name"
-					position = { x = 286 y = 134 }
+					position = { x = 363 y = 134 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 5 y = 5}	
 					text = "Bronze guns"	
-					maxWidth = 197
+					maxWidth = 140
 					maxHeight = 38
 					format = left
 					fixedsize = yes
@@ -1414,14 +1408,14 @@ guiTypes = {
 				iconType = {
 					name ="tech_art_fire"
 					spriteType = "GFX_icon_fire"
-					position = { x= 289 y = 154 }
+					position = { x= 333 y = 160 }
 					scale = 0.85
 					hint_tag = "hint_firemod"
 				}
 				
 				instantTextBoxType = {
 					name = "tech_art_fire_value"
-					position = { x = 317 y = 157 } 
+					position = { x = 365 y = 163 } 
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}	
@@ -1434,14 +1428,14 @@ guiTypes = {
 				iconType = {
 					name ="tech_art_shock"
 					spriteType = "GFX_icon_shock"
-					position = { x= 377 y = 154 }
-					scale = 0.85
+					position = { x= 408 y = 160 }
+					scale = 0.7
 					hint_tag = "hint_shockmod"
 				}
 				
 				instantTextBoxType = {
 					name = "tech_art_shock_value"
-					position = { x = 403 y = 158 } 
+					position = { x = 440 y = 163 } 
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}	
