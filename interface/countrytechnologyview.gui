@@ -340,7 +340,7 @@ guiTypes = {
 		{
 			name ="tech_icon"
 			spriteType = "GFX_icon_powers_administrative_tech"
-			position = { x= 44 y = 35 }
+			position = { x= 34 y = 35 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_adm"
 			scale = 1.3
@@ -717,7 +717,7 @@ guiTypes = {
 		# Diplo Research Items
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 129 y = 110 } #Increase y = down
+			position = { x = 131 y = 110 } #Increase y = down
 			size = { x = 210 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -1165,7 +1165,7 @@ guiTypes = {
 		# Mil tech Unlock items
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 132 y = 112 } #Increase y = down
+			position = { x = 134 y = 110 } #Increase y = down
 			size = { x = 210 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
